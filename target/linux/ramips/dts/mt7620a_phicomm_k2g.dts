@@ -7,7 +7,7 @@
 
 &partitions {
 	partition@50000 {
-		reg = <0x50000 0x50000>;
+		reg = <0x50000 0xfb0000>;
 		label = "permanent_config";
 		read-only;
 	};
